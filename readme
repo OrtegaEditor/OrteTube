@@ -1,0 +1,112 @@
+📱 YouTube Downloader Web
+Application Multiplateforme Python/Streamlit
+Auteur: Ortega Editor
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✨ DESCRIPTION
+
+OrteTube  est une application multiplateforme 
+(Android/PC/iOS) qui permet de télécharger facilement des vidéos 
+YouTube avec interface web moderne et gestion d'erreurs pro.
+
+Fonctionnalités:
+• Interface responsive mobile/desktop
+• Téléchargement haute qualité
+• Infos vidéo (titre, durée, résolution)
+• Choix dossier destination
+• Gestion erreurs complète
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🚀 INSTALLATION RAPIDE
+
+1. Prérequis: Python 3.8+
+
+2. Dans ton terminal (venv activé):
+pip install streamlit pytubefix
+
+3. Lancer l'app:
+streamlit run OrteTubeAPK.py
+
+4. URLs:
+• PC: http://localhost:8501
+• Android: http://192.168.x.x:8501
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📱 UTILISATION MOBILE
+
+1. Même WiFi PC/téléphone
+2. Copie URL réseau du terminal
+3. Chrome Android → colle l'URL
+4. Télécharge directement !
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🛠️ ARCHITECTURE
+
+ytdownloader_web.py    ← App Streamlit principale
+README.txt            ← Documentation
+venv/                 ← Environnement virtuel
+
+Stack:
+• Streamlit → Interface web
+• pytubefix → YouTube API
+• Python 3.8+ → Backend
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+💻 ÉVOLUTION PROJET
+
+1. CLI Python (pytube)     → Bug HTTP 400
+2. CLI pytubefix          → ✅ Fonctionnel
+3. GUI Tkinter            → ✅ Desktop
+4. Web App Streamlit      → ✅ Multiplateforme
+
+Problèmes résolus:
+• Migration pytube→pytubefix
+• Callback progression Streamlit
+• Interface responsive mobile
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🎓 COMPÉTENCES DÉMONTRÉES
+
+✅ Librairies externes (pytubefix, Streamlit)
+✅ Gestion erreurs avancée (try/except)
+✅ Architecture modulaire CLI→GUI→Web
+✅ Développement multiplateforme
+✅ Déploiement web facile
+✅ Documentation pro
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🌐 DÉPLOIEMENT PRODUCTION
+
+Render.com (gratuit):
+1. GitHub repo avec ce fichier
+2. Render.com → New Web Service
+3. Build: pip install -r requirements.txt
+4. Start: streamlit run ytdownloader_web.py
+5. URL publique générée !
+6. Test sur mobile/PC
+7. Partage URL avec amis !
+streamlit==1.38.0
+pytubefix==2024.07.07
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔧 DÉPANNAGE RAPIDE
+
+Problème                Solution
+HTTP 400               pip install pytubefix
+Port occupé            --server.port 8502
+Android inaccessible   Même WiFi
+Callback erreur        Version simplifiée OK
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Status: Production Ready ✅
+Version: 1.0.0
+Licence: MIT
