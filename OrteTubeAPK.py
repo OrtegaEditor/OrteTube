@@ -63,4 +63,4 @@ with st.sidebar:
     st.markdown("- Python")
 
 st.markdown("---")
-st.markdown("* Ortega Ortega - 2026*")
+st.markdown("* Ortega Editor - 2026 ")
